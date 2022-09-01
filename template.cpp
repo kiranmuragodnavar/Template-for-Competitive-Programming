@@ -1,4 +1,4 @@
-// This code is given by - kiran_abc02 aka bentonite_02
+// This code is given by - bentonite_02
 
 #include <algorithm>
 #include <bitset>
@@ -7,7 +7,9 @@
 #include <cmath>
 #include <cstring>
 #include <deque>
+#include <climits>
 #include <functional>
+#include <climits>
 #include <iomanip>
 #include <iostream>
 #include <map>
@@ -28,20 +30,21 @@
 #define endl '\n'
 
 #define vec vector<long long int>
-//#define map map<ll, ll>
-#define smap map<char, ll>
-#define umap unordered_map<ll, ll>
-#define sumap unordered_map<char, ll>
+#define ap map<ll, ll>
+#define sap map<char, ll>
+#define uap unordered_map<ll, ll>
+#define suap unordered_map<string, ll>
 
 #define input(v)      \
     for (auto &x : v) \
     {                 \
         cin >> x;     \
     }
-#define repn(n) for (ll i = 0; i < n; i++)
-#define rep(a, b) for (ll i = a; i < b; i++)
-#define rep_rev(a, b) for (ll i = a; i >= b; i--)
-#define access(v) for (auto &x : v)
+#define repn(i, n) for (ll i = 0; i < n; i++)        // Loop from 1 to n
+#define rep(i, a, b) for (ll i = a; i < b; i++)      // Loop in a given range
+#define rep_rev(i, a, b) for (ll i = a; i >= b; i--) // Reverse for loop
+#define access(v) for (auto &x : v)                  // Access elements of container
+#define print(a) cout << a << endl;
 #define display(v)        \
     for (auto x : v)      \
     {                     \
@@ -49,38 +52,44 @@
     }                     \
     cout << endl;
 #define pr pair<ll, ll>
-#define sort(v) sort(v.begin(), v.end())
-#define reverse_sort(v) sort(v.begin(), v.end(), greater<int>())
+#define debug(x) cout << #x << " " << x << endl;
+#define sort(v) sort(v.begin(), v.end())                         // Sort a container
+#define reverse_sort(v) sort(v.begin(), v.end(), greater<int>()) // Reverse container in sorted order
 
 #define maxim(v) *max_element(v.begin(), v.end())
 #define minim(v) *min_element(v.begin(), v.end())
-#define sumof(v) accumulate(v.begin(), v.end(), 0)
-#define count(v, n) count(v.begin(), v.end())
-#define reverse(v) reverse(v.begin(), v.end())
+#define suof(v) accumulate(v.begin(), v.end(), 0) // Calculate sum of elements in a container
+#define count(v, n) count(v.begin(), v.end())     // Count no of elements of a container
+#define reverse(v) reverse(v.begin(), v.end())    // Reverse a container
+#define ax(a, b) max(a, b)
+#define in(a, b) min(a, b)
 
-#define lcm(a, b) a / gcd(a, b) * b
+#define lc(a, b) a / gcd(a, b) * b
 #define square(x) x *x
 #define cube(x) x *x *x
-#define cBits(x) __builtin_popcount(x)
-
+#define setbits(x) __builtin_popcount(x) // Count Set Bits
 
 using namespace std;
 
 // Code begins here-->
 
 void solve()
-{ }
+{
+    //Your Code here
+}
 
 int main()
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    ll _ = 1;
+    ll _ = 1, p = 1;
     cin >> _;
     while (_--)
     {
+        //  cout << "Case #" << p << ": "; // **Used for Google competitions only**
         solve();
+        p++;
     }
 
     return 0;
