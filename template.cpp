@@ -31,7 +31,7 @@
 
 #define vec vector<long long int>
 #define ap map<ll, ll>
-#define sap map<char, ll>
+#define sap map<string, ll>
 #define uap unordered_map<ll, ll>
 #define suap unordered_map<string, ll>
 
@@ -51,7 +51,7 @@
         cout << x << " "; \
     }                     \
     cout << endl;
-#define pr pair<ll, ll>
+#define pair pair<ll, ll>
 #define debug(x) cout << #x << " " << x << endl;
 #define sort(v) sort(v.begin(), v.end())                         // Sort a container
 #define reverse_sort(v) sort(v.begin(), v.end(), greater<int>()) // Reverse container in sorted order
@@ -75,11 +75,12 @@ using namespace std;
 
 void solve()
 {
-    //Your Code here
 }
 
 int main()
 {
+    // freopen("input.txt","r",stdin);
+    // freopen("output.txt","w",stdout);
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
@@ -87,7 +88,7 @@ int main()
     cin >> _;
     while (_--)
     {
-        //  cout << "Case #" << p << ": "; // **Used for Google competitions only**
+        // cout << "Case #" << p << ": "; // **Used for Google competitions only**
         solve();
         p++;
     }
