@@ -43,8 +43,10 @@ using namespace __gnu_pbds;
 
 #define vec vector<long long int>
 #define ap map<ll, ll>
-#define sap map<char, ll>
-#define uap unordered_map<ll, ll>
+#define uap map<ll, ll>
+#define cap map<char, ll>
+#define cuap unordered_map<char, ll>
+#define sap map<string, ll>
 #define suap unordered_map<string, ll>
 
 #define input(v)      \
