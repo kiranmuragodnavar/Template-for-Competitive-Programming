@@ -1,3 +1,6 @@
+#define ll long long int  
+#define vec vector<ll>
+
 vec seg(1e6 + 7);
  
 void build(ll node, ll st, ll end, vec &v)
